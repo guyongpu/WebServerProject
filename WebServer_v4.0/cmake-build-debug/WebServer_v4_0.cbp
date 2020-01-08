@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="WebServer_v2_0"/>
+		<Option title="WebServer_v4_0"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="WebServer_v2_0">
-				<Option output="/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/WebServer_v2_0" prefix_auto="0" extension_auto="0"/>
+			<Target title="WebServer_v4_0">
+				<Option output="/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/WebServer_v4_0" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -44,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_v2_0"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_v4_0"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="WebServer_v2_0/fast">
-				<Option output="/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/WebServer_v2_0" prefix_auto="0" extension_auto="0"/>
+			<Target title="WebServer_v4_0/fast">
+				<Option output="/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/WebServer_v4_0" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +67,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_v2_0/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_v4_0/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,31 +85,31 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/epoll.cpp">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/epoll.h">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/main.cpp">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/requestData.cpp">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/requestData.h">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/threadpool.cpp">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/threadpool.h">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/util.cpp">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/util.h">
-			<Option target="WebServer_v2_0"/>
+			<Option target="WebServer_v4_0"/>
 		</Unit>
 		<Unit filename="/home/yongpu/WebServerProject/WebServer_v4.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

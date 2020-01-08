@@ -43,10 +43,10 @@ RM = /home/yongpu/Software/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yongpu/WebServerProject/WebServer_v2.0
+CMAKE_SOURCE_DIR = /home/yongpu/WebServerProject/WebServer_v4.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WebServer_v2_0.dir/depend.make
@@ -59,43 +59,88 @@ include CMakeFiles/WebServer_v2_0.dir/flags.make
 
 CMakeFiles/WebServer_v2_0.dir/main.cpp.o: CMakeFiles/WebServer_v2_0.dir/flags.make
 CMakeFiles/WebServer_v2_0.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WebServer_v2_0.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/main.cpp.o -c /home/yongpu/WebServerProject/WebServer_v2.0/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WebServer_v2_0.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/main.cpp.o -c /home/yongpu/WebServerProject/WebServer_v4.0/main.cpp
 
 CMakeFiles/WebServer_v2_0.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer_v2_0.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v2.0/main.cpp > CMakeFiles/WebServer_v2_0.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v4.0/main.cpp > CMakeFiles/WebServer_v2_0.dir/main.cpp.i
 
 CMakeFiles/WebServer_v2_0.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer_v2_0.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v2.0/main.cpp -o CMakeFiles/WebServer_v2_0.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v4.0/main.cpp -o CMakeFiles/WebServer_v2_0.dir/main.cpp.s
 
 CMakeFiles/WebServer_v2_0.dir/util.cpp.o: CMakeFiles/WebServer_v2_0.dir/flags.make
 CMakeFiles/WebServer_v2_0.dir/util.cpp.o: ../util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebServer_v2_0.dir/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/util.cpp.o -c /home/yongpu/WebServerProject/WebServer_v2.0/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebServer_v2_0.dir/util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/util.cpp.o -c /home/yongpu/WebServerProject/WebServer_v4.0/util.cpp
 
 CMakeFiles/WebServer_v2_0.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer_v2_0.dir/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v2.0/util.cpp > CMakeFiles/WebServer_v2_0.dir/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v4.0/util.cpp > CMakeFiles/WebServer_v2_0.dir/util.cpp.i
 
 CMakeFiles/WebServer_v2_0.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer_v2_0.dir/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v2.0/util.cpp -o CMakeFiles/WebServer_v2_0.dir/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v4.0/util.cpp -o CMakeFiles/WebServer_v2_0.dir/util.cpp.s
+
+CMakeFiles/WebServer_v2_0.dir/requestData.cpp.o: CMakeFiles/WebServer_v2_0.dir/flags.make
+CMakeFiles/WebServer_v2_0.dir/requestData.cpp.o: ../requestData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WebServer_v2_0.dir/requestData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/requestData.cpp.o -c /home/yongpu/WebServerProject/WebServer_v4.0/requestData.cpp
+
+CMakeFiles/WebServer_v2_0.dir/requestData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer_v2_0.dir/requestData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v4.0/requestData.cpp > CMakeFiles/WebServer_v2_0.dir/requestData.cpp.i
+
+CMakeFiles/WebServer_v2_0.dir/requestData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer_v2_0.dir/requestData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v4.0/requestData.cpp -o CMakeFiles/WebServer_v2_0.dir/requestData.cpp.s
+
+CMakeFiles/WebServer_v2_0.dir/epoll.cpp.o: CMakeFiles/WebServer_v2_0.dir/flags.make
+CMakeFiles/WebServer_v2_0.dir/epoll.cpp.o: ../epoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WebServer_v2_0.dir/epoll.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/epoll.cpp.o -c /home/yongpu/WebServerProject/WebServer_v4.0/epoll.cpp
+
+CMakeFiles/WebServer_v2_0.dir/epoll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer_v2_0.dir/epoll.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v4.0/epoll.cpp > CMakeFiles/WebServer_v2_0.dir/epoll.cpp.i
+
+CMakeFiles/WebServer_v2_0.dir/epoll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer_v2_0.dir/epoll.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v4.0/epoll.cpp -o CMakeFiles/WebServer_v2_0.dir/epoll.cpp.s
+
+CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.o: CMakeFiles/WebServer_v2_0.dir/flags.make
+CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.o: ../threadpool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.o -c /home/yongpu/WebServerProject/WebServer_v4.0/threadpool.cpp
+
+CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yongpu/WebServerProject/WebServer_v4.0/threadpool.cpp > CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.i
+
+CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yongpu/WebServerProject/WebServer_v4.0/threadpool.cpp -o CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.s
 
 # Object files for target WebServer_v2_0
 WebServer_v2_0_OBJECTS = \
 "CMakeFiles/WebServer_v2_0.dir/main.cpp.o" \
-"CMakeFiles/WebServer_v2_0.dir/util.cpp.o"
+"CMakeFiles/WebServer_v2_0.dir/util.cpp.o" \
+"CMakeFiles/WebServer_v2_0.dir/requestData.cpp.o" \
+"CMakeFiles/WebServer_v2_0.dir/epoll.cpp.o" \
+"CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.o"
 
 # External object files for target WebServer_v2_0
 WebServer_v2_0_EXTERNAL_OBJECTS =
 
 WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/main.cpp.o
 WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/util.cpp.o
+WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/requestData.cpp.o
+WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/epoll.cpp.o
+WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/threadpool.cpp.o
 WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/build.make
 WebServer_v2_0: CMakeFiles/WebServer_v2_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable WebServer_v2_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable WebServer_v2_0"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WebServer_v2_0.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +153,6 @@ CMakeFiles/WebServer_v2_0.dir/clean:
 .PHONY : CMakeFiles/WebServer_v2_0.dir/clean
 
 CMakeFiles/WebServer_v2_0.dir/depend:
-	cd /home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongpu/WebServerProject/WebServer_v2.0 /home/yongpu/WebServerProject/WebServer_v2.0 /home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug /home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug /home/yongpu/WebServerProject/WebServer_v2.0/cmake-build-debug/CMakeFiles/WebServer_v2_0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yongpu/WebServerProject/WebServer_v4.0 /home/yongpu/WebServerProject/WebServer_v4.0 /home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug /home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug /home/yongpu/WebServerProject/WebServer_v4.0/cmake-build-debug/CMakeFiles/WebServer_v2_0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WebServer_v2_0.dir/depend
 

@@ -17,22 +17,19 @@ ssize_t readn(int fd, void *buff, size_t n) {
     ssize_t readSum = 0;
     char *ptr = (char *) buff;
     while (nleft > 0) {
-        nread = read(fd, ptr, nleft);
-        if (nread < 0) {  /* 出错 */
-            if (errno == EINTR) {   /* 中断引起的，可以继续读 */
+        if ((nread = read(fd, ptr, nleft)) < 0) {
+            if (errno == EINTR)
                 nread = 0;
-            } else if (errno == EAGAIN) {
+            else if (errno == EAGAIN) {
                 return readSum;
             } else {
                 return -1;
             }
-        } else if (nread == 0) {
+        } else if (nread == 0)
             break;
-        } else {
-            readSum = readSum + nread;
-            nleft = nleft - nread;
-            ptr = ptr + nread;
-        }
+        readSum += nread;
+        nleft -= nread;
+        ptr += nread;
     }
     return readSum;
 }
@@ -47,52 +44,45 @@ ssize_t readn(int fd, void *buff, size_t n) {
  */
 ssize_t writen(int fd, void *buff, size_t n) {
     size_t nleft = n;
-    ssize_t nwriteen = 0;
+    ssize_t nwritten = 0;
     ssize_t writeSum = 0;
     char *ptr = (char *) buff;
     while (nleft > 0) {
-        nwriteen = write(fd, ptr, nleft);
-        if (nwriteen <= 0) {
-            if (nwriteen < 0) {
+        if ((nwritten = write(fd, ptr, nleft)) <= 0) {
+            if (nwritten < 0) {
                 if (errno == EINTR || errno == EAGAIN) {
-                    nwriteen = 0;
+                    nwritten = 0;
                     continue;
-                } else {
+                } else
                     return -1;
-                }
             }
-        } else {
-            writeSum = writeSum + nwriteen;
-            nleft = nleft - nwriteen;
-            ptr = ptr + nwriteen;
         }
+        writeSum += nwritten;
+        nleft -= nwritten;
+        ptr += nwritten;
     }
     return writeSum;
 }
 
-/* 设置SIGPIPE异常的处理为SIG_IGN，即忽略 */
+/* 设置SIGPIPE异常的处理为 SIG_IGN，即忽略 */
 void handle_for_sigpipe() {
     struct sigaction sa;
     memset(&sa, '\0', sizeof(sa));
-    sa.sa_handler = SIG_IGN;    /* 信号处理方式/函数,SIG_IGN为设定接受到指定信号后的动作为忽略 */
+    sa.sa_handler = SIG_IGN;/* 信号处理方式/函数,SIG_IGN为设定接受到指定信号后的动作为忽略 */
     sa.sa_flags = 0;
     /* SIGPIPE信号, 该信号默认结束进程 */
-    if (sigaction(SIGPIPE, &sa, NULL)) {    /* 注册SIGPIPE信号 */
+    if (sigaction(SIGPIPE, &sa, NULL))/* 注册SIGPIPE信号 */
         return;
-    }
 }
 
 /* 设置文件描述符为非阻塞 */
 int setSocketNonBlocking(int fd) {
-    int flag = fcntl(fd, F_GETFL, 0);   /* 获取文件描述符属性 */
-    if (flag == -1) {
-        perror("fcntl F_GETFL error");
+    int flag = fcntl(fd, F_GETFL, 0);
+    if (flag == -1)
         return -1;
-    }
-    flag = flag | O_NONBLOCK;
-    if (fcntl(fd, F_SETFL, flag) == -1) {
-        perror("fcntl F_SETFL error");
+
+    flag |= O_NONBLOCK;
+    if (fcntl(fd, F_SETFL, flag) == -1)
         return -1;
-    }
     return 0;
 }
