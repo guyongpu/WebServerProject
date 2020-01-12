@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/WebServer_v7_0.dir/main.cpp.o CMakeFiles/WebServer_v7_0.dir/util.cpp.o CMakeFiles/WebServer_v7_0.dir/Epoll.cpp.o CMakeFiles/WebServer_v7_0.dir/requestData.cpp.o CMakeFiles/WebServer_v7_0.dir/timer.cpp.o CMakeFiles/WebServer_v7_0.dir/threadpool.cpp.o  -o WebServer_v7_0 

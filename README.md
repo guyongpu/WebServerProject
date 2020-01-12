@@ -10,3 +10,4 @@
 |04|WebServer_v4.0|写一个epoll多线程web服务器|2020.1.8|已完成.|
 |05|WebServer_v5.0|引入rall锁的机制|2020.1.10|已完成.|
 |06|WebServer_v6.0|引入智能指针|2020.1.11|已完成.|
+|07|WebServer_v7.0|引入nocopyable，对时间轮进行封装，重写了RAII机制的锁，对MimeType使用pthread_once|2020.1.12|已完成.|

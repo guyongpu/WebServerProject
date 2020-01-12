@@ -1,53 +1,61 @@
 //
-// Created by yongpu on 2020/1/10.
+// Created by yongpu on 2020/1/12.
 //
 
-#include "Epoll.h"
 #include "requestData.h"
+#include "util.h"
+#include "Epoll.h"
+#include <sys/epoll.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/mman.h>
+#include <queue>
+#include <cstdlib>
 
-pthread_mutex_t MutexLockGuard::lock = PTHREAD_MUTEX_INITIALIZER;   /* 定时器RALL锁 */
-pthread_mutex_t MimeType::lock = PTHREAD_MUTEX_INITIALIZER;         /* 任务队列锁 */
-unordered_map<string, string> MimeType::mime;
+#include <iostream>
 
-std::priority_queue<shared_ptr<mytimer>, std::deque<shared_ptr<mytimer>>, timerCmp> myTimerQueue;
+using namespace std;
 
-string MimeType::getMime(const std::string &suffix) {
-    if (mime.size() == 0) {
-        pthread_mutex_lock(&lock);
-        if (mime.size() == 0) {
-            mime[".html"] = "text/html";
-            mime[".avi"] = "video/x-msvideo";
-            mime[".bmp"] = "image/bmp";
-            mime[".c"] = "text/plain";
-            mime[".doc"] = "application/msword";
-            mime[".gif"] = "image/gif";
-            mime[".gz"] = "application/x-gzip";
-            mime[".htm"] = "text/html";
-            mime[".ico"] = "application/x-ico";
-            mime[".jpg"] = "image/jpeg";
-            mime[".png"] = "image/png";
-            mime[".txt"] = "text/plain";
-            mime[".mp3"] = "audio/mp3";
-            mime["default"] = "text/html";
-        }
-        pthread_mutex_unlock(&lock);
-    }
+pthread_once_t MimeType::once_control = PTHREAD_ONCE_INIT;
+std::unordered_map<std::string, std::string> MimeType::mime;
+
+
+void MimeType::init() {
+    mime[".html"] = "text/html";
+    mime[".avi"] = "video/x-msvideo";
+    mime[".bmp"] = "image/bmp";
+    mime[".c"] = "text/plain";
+    mime[".doc"] = "application/msword";
+    mime[".gif"] = "image/gif";
+    mime[".gz"] = "application/x-gzip";
+    mime[".htm"] = "text/html";
+    mime[".ico"] = "application/x-ico";
+    mime[".jpg"] = "image/jpeg";
+    mime[".png"] = "image/png";
+    mime[".txt"] = "text/plain";
+    mime[".mp3"] = "audio/mp3";
+    mime["default"] = "text/html";
+}
+
+std::string MimeType::getMime(const std::string &suffix) {
+    pthread_once(&once_control, MimeType::init);    /*如果已经初始化过了，则不再初始化*/
     if (mime.find(suffix) == mime.end())
         return mime["default"];
     else
         return mime[suffix];
 }
 
-requestData::requestData() :
+RequestData::RequestData() :
         now_read_pos(0),
         state(STATE_PARSE_URI),
         h_state(h_start),
         keep_alive(false),
         againTimes(0) {
-    cout << "requestData()" << endl;
+    cout << "RequestData()" << endl;
 }
 
-requestData::requestData(int _epollfd, int _fd, std::string _path) :
+RequestData::RequestData(int _epollfd, int _fd, std::string _path) :
         now_read_pos(0),
         state(STATE_PARSE_URI),
         h_state(h_start),
@@ -56,29 +64,28 @@ requestData::requestData(int _epollfd, int _fd, std::string _path) :
         path(_path),
         fd(_fd),
         epollfd(_epollfd) {
-    cout << "requestData()" << endl;
+    cout << "RequestData()" << endl;
 }
 
-requestData::~requestData() {
-    cout << "~requestData()" << endl;
+RequestData::~RequestData() {
+    cout << "~RequestData()" << endl;
     close(fd);
 }
 
-void requestData::addTimer(shared_ptr<mytimer> mtimer) {
+void RequestData::linkTimer(shared_ptr<TimerNode> mtimer) {
     // shared_ptr重载了bool, 但weak_ptr没有
-    //if (!timer.lock())
     timer = mtimer;
 }
 
-int requestData::getFd() {
+int RequestData::getFd() {
     return fd;
 }
 
-void requestData::setFd(int _fd) {
+void RequestData::setFd(int _fd) {
     fd = _fd;
 }
 
-void requestData::reset() {
+void RequestData::reset() {
     againTimes = 0;
     content.clear();
     file_name.clear();
@@ -88,23 +95,23 @@ void requestData::reset() {
     h_state = h_start;
     headers.clear();
     keep_alive = false;
-    if (timer.lock())/*lock()函数，返回一个shared_ptr智能指针*/
+    if (timer.lock())/*lock返回本体*/
     {
-        shared_ptr<mytimer> my_timer(timer.lock());
+        shared_ptr<TimerNode> my_timer(timer.lock());
         my_timer->clearReq();
         timer.reset();
     }
 }
 
-void requestData::seperateTimer() {
+void RequestData::seperateTimer() {
     if (timer.lock()) {
-        shared_ptr<mytimer> my_timer(timer.lock());/*使用拷贝构造函数*/
+        shared_ptr<TimerNode> my_timer(timer.lock());
         my_timer->clearReq();
-        timer.reset();/*timer不再管理之前的资源，资源的引用计数会减1*/
+        timer.reset();
     }
 }
 
-void requestData::handleRequest() {
+void RequestData::handleRequest() {
     char buff[MAX_BUFF];
     bool isError = false;
     while (true) {
@@ -197,16 +204,10 @@ void requestData::handleRequest() {
     }
     // 一定要先加时间信息，否则可能会出现刚加进去，下个in触发来了，然后分离失败后，又加入队列，最后超时被删，然后正在线程中进行的任务出错，double free错误。
     // 新增时间信息
-    //cout << "shared_from_this().use_count() ==" << shared_from_this().use_count() << endl;
-    shared_ptr<mytimer> mtimer(new mytimer(shared_from_this(), 500));
-    this->addTimer(mtimer);
-    {
-        MutexLockGuard lock;    /* 出作用域就会被析构 */
-        myTimerQueue.push(mtimer);
-    }
+    Epoll::add_timer(shared_from_this(), 500);
 
     __uint32_t _epo_event = EPOLLIN | EPOLLET | EPOLLONESHOT;
-    int ret = Epoll::epoll_mod(fd, shared_from_this(), _epo_event);/*shared_from_this返回本体*/
+    int ret = Epoll::epoll_mod(fd, shared_from_this(), _epo_event);
     //cout << "shared_from_this().use_count() ==" << shared_from_this().use_count() << endl;
     if (ret < 0) {
         // 返回错误处理
@@ -215,7 +216,7 @@ void requestData::handleRequest() {
     }
 }
 
-int requestData::parse_URI() {
+int RequestData::parse_URI() {
     string &str = content;
     // 读到完整的请求行再开始解析请求
     int pos = str.find('\r', now_read_pos);
@@ -283,7 +284,7 @@ int requestData::parse_URI() {
     return PARSE_URI_SUCCESS;
 }
 
-int requestData::parse_Headers() {
+int RequestData::parse_Headers() {
     string &str = content;
     int key_start = -1, key_end = -1, value_start = -1, value_end = -1;
     int now_read_line_begin = 0;
@@ -373,7 +374,7 @@ int requestData::parse_Headers() {
     return PARSE_HEADER_AGAIN;
 }
 
-int requestData::analysisRequest() {
+int RequestData::analysisRequest() {
     if (method == METHOD_POST) {
         //get content
         char header[MAX_BUFF];
@@ -421,8 +422,6 @@ int requestData::analysisRequest() {
             filetype = MimeType::getMime(file_name.substr(dot_pos)).c_str();
         struct stat sbuf;
         file_name = path + file_name;
-//        cout << " path = " << path << endl;
-        cout << " file_name = " << file_name << endl;
         if (stat(file_name.c_str(), &sbuf) < 0) {
             handleError(fd, 404, "Not Found!");
             return ANALYSIS_ERROR;
@@ -438,12 +437,7 @@ int requestData::analysisRequest() {
             perror("Send header failed");
             return ANALYSIS_ERROR;
         }
-
         int src_fd = open(file_name.c_str(), O_RDONLY, 0);
-        if (src_fd < 0) {
-            perror("file open failed!");
-        }
-        /*mmap：将一个普通文件映射到内存中，通常在需要对文件进行频繁读写时使用，这样用内存读写取代I/O读写，以获得较高的性能；*/
         char *src_addr = static_cast<char *>(mmap(NULL, sbuf.st_size, PROT_READ, MAP_PRIVATE, src_fd, 0));
         close(src_fd);
 
@@ -459,7 +453,7 @@ int requestData::analysisRequest() {
         return ANALYSIS_ERROR;
 }
 
-void requestData::handleError(int fd, int err_num, string short_msg) {
+void RequestData::handleError(int fd, int err_num, string short_msg) {
     short_msg = " " + short_msg;
     char send_buff[MAX_BUFF];
     string body_buff, header_buff;
@@ -477,76 +471,4 @@ void requestData::handleError(int fd, int err_num, string short_msg) {
     writen(fd, send_buff, strlen(send_buff));
     sprintf(send_buff, "%s", body_buff.c_str());
     writen(fd, send_buff, strlen(send_buff));
-}
-
-mytimer::mytimer(shared_ptr<requestData> _request_data, int timeout) :
-        deleted(false),
-        request_data(_request_data) {
-    cout << "mytimer()" << endl;
-    struct timeval now;
-    gettimeofday(&now, NULL);
-    // 以毫秒计
-    expired_time = ((now.tv_sec * 1000) + (now.tv_usec / 1000)) + timeout;
-}
-
-mytimer::~mytimer() {
-    cout << "~mytimer()" << endl;
-    if (request_data) {
-        Epoll::epoll_del(request_data->getFd(), EPOLLIN | EPOLLET | EPOLLONESHOT);
-    }
-    //request_data.reset();
-    // if (request_data)
-    // {
-    //     cout << "request_data=" << request_data << endl;
-    //     delete request_data;
-    //     request_data = NULL;
-    // }
-}
-
-void mytimer::update(int timeout) {
-    struct timeval now;
-    gettimeofday(&now, NULL);
-    expired_time = ((now.tv_sec * 1000) + (now.tv_usec / 1000)) + timeout;
-}
-
-bool mytimer::isvalid() {
-    struct timeval now;
-    gettimeofday(&now, NULL);
-    size_t temp = ((now.tv_sec * 1000) + (now.tv_usec / 1000));
-    if (temp < expired_time) {
-        return true;
-    } else {
-        this->setDeleted();
-        return false;
-    }
-}
-
-void mytimer::clearReq() {
-    request_data.reset();
-    this->setDeleted();
-}
-
-void mytimer::setDeleted() {
-    deleted = true;
-}
-
-bool mytimer::isDeleted() const {
-    return deleted;
-}
-
-size_t mytimer::getExpTime() const {
-    return expired_time;
-}
-
-bool timerCmp::operator()(shared_ptr<mytimer> &a, shared_ptr<mytimer> &b) const {
-    return a->getExpTime() > b->getExpTime();
-}
-
-
-MutexLockGuard::MutexLockGuard() {
-    pthread_mutex_lock(&lock);
-}
-
-MutexLockGuard::~MutexLockGuard() {
-    pthread_mutex_unlock(&lock);
 }
