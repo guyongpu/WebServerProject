@@ -1,0 +1,6 @@
+/home/yongpu/base/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yongpu/base/cmake-build-debug/CMakeFiles/libserver_base.dir
+/home/yongpu/base/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yongpu/base/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
+/home/yongpu/base/cmake-build-debug/tests/CMakeFiles/LogSystem.dir
+/home/yongpu/base/cmake-build-debug/tests/CMakeFiles/edit_cache.dir

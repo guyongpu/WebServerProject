@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/LoggingTest.dir/LoggingTest.o  -o LoggingTest  -L/home/yongpu/base/cmake-build-debug ../libserver_base.a -lpthread -lrt 

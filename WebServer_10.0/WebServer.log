@@ -1,0 +1,1101 @@
+2020-02-14 00:06:45
+New connection from 127.0.0.1:33926 -- Server.cpp:63
+2020-02-14 00:06:45
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:180
+2020-02-14 00:06:45
+New connection from 127.0.0.1:33928 -- Server.cpp:63
+2020-02-14 00:06:45
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:180
+2020-02-14 10:08:08
+Request:  -- HttpData.cpp:180
+2020-02-14 10:10:47
+Web Server start now... -- main.cpp:31
+2020-02-14 11:19:04
+Web Server start now... -- main.cpp:31
+2020-02-14 11:19:20
+New connection from 127.0.0.1:34342 -- Server.cpp:63
+2020-02-14 11:19:20
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:180
+2020-02-14 11:19:20
+New connection from 127.0.0.1:34344 -- Server.cpp:63
+2020-02-14 11:19:20
+New connection from 127.0.0.1:34346 -- Server.cpp:63
+2020-02-14 11:24:08
+Web Server start now... -- main.cpp:31
+2020-02-14 11:24:26
+New connection from 127.0.0.1:57950 -- Server.cpp:63
+2020-02-14 11:24:26
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:180
+2020-02-14 11:24:26
+New connection from 127.0.0.1:57952 -- Server.cpp:63
+2020-02-14 11:24:26
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:180
+2020-02-14 11:26:12
+New connection from 127.0.0.1:57958 -- Server.cpp:63
+2020-02-14 11:26:12
+Request:   -- HttpData.cpp:180
+2020-02-14 11:26:12
+FD = 16, ****** -- HttpData.cpp:222
+2020-02-14 11:26:14
+New connection from 127.0.0.1:57960 -- Server.cpp:63
+2020-02-14 11:26:14
+Request: GET  HTTP/1.1 -- HttpData.cpp:180
+2020-02-14 11:26:14
+FD = 16,GET  HTTP/1.1****** -- HttpData.cpp:222
+2020-02-14 11:26:16
+New connection from 127.0.0.1:57962 -- Server.cpp:63
+2020-02-14 11:26:16
+Request: GET / HTTP/1.1
+Host: 192.168.52.135:8888
+Content-Type: application/x-www-form-urlencoded
+Connection: Keep-Alive
+
+ -- HttpData.cpp:180
+2020-02-14 11:29:43
+Request:  -- HttpData.cpp:180
+2020-02-14 11:34:58
+Web Server start now... -- main.cpp:31
+2020-02-14 11:35:07
+New connection from 127.0.0.1:58046 -- Server.cpp:63
+2020-02-14 11:35:07
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:172
+2020-02-14 11:35:07
+New connection from 127.0.0.1:58048 -- Server.cpp:63
+2020-02-14 11:35:07
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:172
+2020-02-14 11:35:59
+Web Server start now... -- main.cpp:31
+2020-02-14 11:36:02
+New connection from 127.0.0.1:58054 -- Server.cpp:63
+2020-02-14 11:36:02
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:172
+2020-02-14 11:36:02
+New connection from 127.0.0.1:58056 -- Server.cpp:63
+2020-02-14 11:36:02
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:172
+2020-02-14 11:36:16
+Request: GET /sad/index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:172
+2020-02-14 11:36:16
+New connection from 127.0.0.1:58058 -- Server.cpp:63
+2020-02-14 11:36:16
+New connection from 127.0.0.1:58060 -- Server.cpp:63
+2020-02-14 11:52:37
+Web Server start now... -- main.cpp:31
+2020-02-14 11:53:44
+New connection from 127.0.0.1:58254 -- Server.cpp:63
+2020-02-14 11:53:44
+Request: GET /sad/index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:53:44
+New connection from 127.0.0.1:58256 -- Server.cpp:63
+2020-02-14 11:53:44
+New connection from 127.0.0.1:58258 -- Server.cpp:63
+2020-02-14 11:53:44
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/sad/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:54:08
+Request:  -- HttpData.cpp:176
+2020-02-14 11:54:37
+Web Server start now... -- main.cpp:31
+2020-02-14 11:54:42
+New connection from 127.0.0.1:58266 -- Server.cpp:63
+2020-02-14 11:54:42
+Request: GET /sad/index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:54:42
+New connection from 127.0.0.1:58268 -- Server.cpp:63
+2020-02-14 11:54:42
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/sad/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:54:49
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:54:49
+New connection from 127.0.0.1:58270 -- Server.cpp:63
+2020-02-14 11:54:49
+New connection from 127.0.0.1:58272 -- Server.cpp:63
+2020-02-14 11:54:59
+Request:  -- HttpData.cpp:176
+2020-02-14 11:54:59
+Request:  -- HttpData.cpp:176
+2020-02-14 11:55:03
+New connection from 127.0.0.1:58288 -- Server.cpp:63
+2020-02-14 11:55:03
+New connection from 127.0.0.1:58290 -- Server.cpp:63
+2020-02-14 11:55:03
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:03
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:05
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:06
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:07
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:07
+New connection from 127.0.0.1:58292 -- Server.cpp:63
+2020-02-14 11:55:07
+New connection from 127.0.0.1:58294 -- Server.cpp:63
+2020-02-14 11:55:07
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:08
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:08
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:09
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:09
+New connection from 127.0.0.1:58296 -- Server.cpp:63
+2020-02-14 11:55:09
+New connection from 127.0.0.1:58298 -- Server.cpp:63
+2020-02-14 11:55:09
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:10
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:10
+New connection from 127.0.0.1:58300 -- Server.cpp:63
+2020-02-14 11:55:10
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:11
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:11
+New connection from 127.0.0.1:58302 -- Server.cpp:63
+2020-02-14 11:55:11
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:12
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:12
+New connection from 127.0.0.1:58304 -- Server.cpp:63
+2020-02-14 11:55:12
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:13
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:13
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:13
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:13
+New connection from 127.0.0.1:58306 -- Server.cpp:63
+2020-02-14 11:55:13
+New connection from 127.0.0.1:58308 -- Server.cpp:63
+2020-02-14 11:55:13
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:14
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:14
+New connection from 127.0.0.1:58310 -- Server.cpp:63
+2020-02-14 11:55:14
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:15
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:15
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:16
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:16
+New connection from 127.0.0.1:58312 -- Server.cpp:63
+2020-02-14 11:55:16
+New connection from 127.0.0.1:58314 -- Server.cpp:63
+2020-02-14 11:55:16
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:17
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:55:17
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:176
+2020-02-14 11:56:22
+Web Server start now... -- main.cpp:31
+2020-02-14 11:56:24
+New connection from 127.0.0.1:58322 -- Server.cpp:63
+2020-02-14 11:56:24
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:56:24
+New connection from 127.0.0.1:58324 -- Server.cpp:63
+2020-02-14 11:56:25
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:56:26
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:56:26
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:22
+Web Server start now... -- main.cpp:31
+2020-02-14 11:57:22
+New connection from 127.0.0.1:58334 -- Server.cpp:63
+2020-02-14 11:57:22
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:22
+New connection from 127.0.0.1:58336 -- Server.cpp:63
+2020-02-14 11:57:23
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:24
+Request: GET /index.html HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:25
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:36
+Request:  -- HttpData.cpp:175
+2020-02-14 11:57:36
+Request: GET /pictrue.jpg HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:36
+New connection from 127.0.0.1:58338 -- Server.cpp:63
+2020-02-14 11:57:36
+New connection from 127.0.0.1:58340 -- Server.cpp:63
+2020-02-14 11:57:47
+New connection from 127.0.0.1:58346 -- Server.cpp:63
+2020-02-14 11:57:47
+Request:  -- HttpData.cpp:175
+2020-02-14 11:57:47
+Request:  -- HttpData.cpp:175
+2020-02-14 11:57:47
+Request: GET /pic.jpg HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 11:57:47
+New connection from 127.0.0.1:58348 -- Server.cpp:63
+2020-02-14 12:02:38
+Request:  -- HttpData.cpp:175
+2020-02-14 12:09:46
+Request:  -- HttpData.cpp:175
+2020-02-14 12:58:38
+New connection from 127.0.0.1:58530 -- Server.cpp:63
+2020-02-14 12:58:38
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:58:38
+New connection from 127.0.0.1:58532 -- Server.cpp:63
+2020-02-14 12:58:54
+Request:  -- HttpData.cpp:175
+2020-02-14 12:59:10
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:59:10
+New connection from 127.0.0.1:58582 -- Server.cpp:63
+2020-02-14 12:59:10
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:59:11
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:59:11
+Request: GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: image
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Referer: http://127.0.0.1:8888/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:59:15
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:59:16
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+ -- HttpData.cpp:175
+2020-02-14 12:59:31
+Request:  -- HttpData.cpp:175
+2020-02-14 13:04:59
+Request:  -- HttpData.cpp:175

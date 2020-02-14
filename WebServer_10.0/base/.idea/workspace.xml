@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="LogSystem" />
+      <config projectName="Project" targetName="libserver_base" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40a78f1b-878b-43fb-a03c-cde016a36b6a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1XTJNswIEORgAPUFqzbEqEIAUC6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="CMake Application.LogSystem">
+    <configuration name="LogSystem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="LogSystem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="LogSystem">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libserver_base" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="libserver_base" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.libserver_base" />
+      <item itemvalue="CMake Application.LogSystem" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40a78f1b-878b-43fb-a03c-cde016a36b6a" name="Default Changelist" comment="" />
+      <created>1581064114401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581064114401</updated>
+      <workItem from="1581064120783" duration="2045000" />
+      <workItem from="1581147092755" duration="23415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="180" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581146922006">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="180" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581146922006" />
+    <state x="303" y="182" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581496091212">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="303" y="182" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581496091212" />
+    <state x="444" y="141" key="FileChooserDialogImpl" timestamp="1581147043130">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="444" y="141" key="FileChooserDialogImpl/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581147043129" />
+    <state width="1249" height="192" key="GridCell.Tab.0.bottom" timestamp="1581496730785">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.bottom/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581496730785" />
+    <state width="1249" height="192" key="GridCell.Tab.0.center" timestamp="1581496730785">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.center/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581496730785" />
+    <state width="1249" height="192" key="GridCell.Tab.0.left" timestamp="1581496730785">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.left/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581496730784" />
+    <state width="1249" height="192" key="GridCell.Tab.0.right" timestamp="1581496730785">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.right/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581496730785" />
+    <state x="326" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1581064132079">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="326" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581064132079" />
+    <state x="327" y="83" width="776" height="598" key="find.popup" timestamp="1581418779492">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="327" y="83" width="776" height="598" key="find.popup/65.24.1301.744/1366.3.1366.768@65.24.1301.744" timestamp="1581418779492" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LogStream.h</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

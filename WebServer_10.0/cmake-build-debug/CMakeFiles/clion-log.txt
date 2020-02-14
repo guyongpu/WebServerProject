@@ -1,0 +1,4 @@
+/home/yongpu/SoftWare/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yongpu/wenjian/WebServerProject/WebServer_10.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yongpu/wenjian/WebServerProject/WebServer_10.0/cmake-build-debug

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WebServer_v9_0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer_v9_0">
+				<Option output="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/WebServer_v9_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_v9_0"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer_v9_0/fast">
+				<Option output="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/WebServer_v9_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer_v9_0/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/AsyncLogging.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/AsyncLogging.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/Condition.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/CountDownLatch.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/CountDownLatch.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/FileUtil.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/FileUtil.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/LogFile.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/LogFile.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/LogStream.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/LogStream.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/Logging.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/Logging.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/MutexLock.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/Thread.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/Thread.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/config.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/epoll.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/epoll.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/main.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/noncopyable.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/requestData.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/requestData.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/threadpool.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/threadpool.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/timer.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/timer.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/util.cpp">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/util.h">
+			<Option target="WebServer_v9_0"/>
+		</Unit>
+		<Unit filename="/home/yongpu/wenjian/WebServerProject/WebServer_v9.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

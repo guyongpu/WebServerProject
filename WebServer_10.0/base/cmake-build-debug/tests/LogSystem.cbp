@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LogSystem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yongpu/base/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LogSystem">
+				<Option output="/home/yongpu/base/cmake-build-debug/tests/LogSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 LogSystem"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LogSystem/fast">
+				<Option output="/home/yongpu/base/cmake-build-debug/tests/LogSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 LogSystem/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yongpu/base/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yongpu/base/AsyncLogging.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/AsyncLogging.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/Condition.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/CountDownLatch.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/CountDownLatch.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/CurrentThread.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/FileUtil.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/FileUtil.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/LogFile.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/LogFile.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/LogStream.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/LogStream.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/Logging.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/Logging.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/MutexLock.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/Thread.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/Thread.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/noncopyable.h">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/tests/LoggingTest.cpp">
+			<Option target="LogSystem"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yongpu/base/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
